@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabi Henriquez Portfolio</title>
+  <meta name="description" content="Fabiana Henríquez: Computer Science at Duke. SWE, ML/AI, and health tech.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&family=Pinyon+Script&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#93B8DD"/><stop offset="1" stop-color="#77A2CF"/></linearGradient>
+    <linearGradient id="fgb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F99C6"/><stop offset="1" stop-color="#5E8BBB"/></linearGradient>
+    <symbol id="folder" viewBox="0 0 100 78"><path d="M4 8 Q4 3 9 3 H36 Q40 3 42 6 L45 10 H91 Q96 10 96 15 V70 Q96 75 91 75 H9 Q4 75 4 70 Z" fill="url(#fgb)"/><rect x="4" y="18" width="92" height="57" rx="5" fill="url(#fg)"/><rect x="4" y="18" width="92" height="3" rx="1.5" fill="#fff" opacity=".35"/></symbol>
+    <symbol id="doc" viewBox="0 0 64 80"><path d="M6 2 H42 L60 20 V76 Q60 78 58 78 H6 Q4 78 4 76 V4 Q4 2 6 2 Z" fill="#fff" stroke="#D8D2CA"/><path d="M42 2 V18 Q42 20 44 20 H60" fill="#EFEAE3" stroke="#D8D2CA"/><g stroke="#C9C1B7" stroke-width="2" stroke-linecap="round"><path d="M14 32 H50"/><path d="M14 40 H50"/><path d="M14 48 H44"/><path d="M14 56 H50"/><path d="M14 64 H36"/></g></symbol>
+    <symbol id="pdf" viewBox="0 0 64 80"><path d="M6 2 H42 L60 20 V76 Q60 78 58 78 H6 Q4 78 4 76 V4 Q4 2 6 2 Z" fill="#fff" stroke="#D8D2CA"/><path d="M42 2 V18 Q42 20 44 20 H60" fill="#EFEAE3" stroke="#D8D2CA"/><g stroke="#D7CFC5" stroke-width="2" stroke-linecap="round"><path d="M14 28 H50"/><path d="M14 35 H44"/></g><rect x="10" y="48" width="44" height="18" rx="3" fill="#D94A3D"/><text x="32" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="11" fill="#fff">PDF</text></symbol>
+  </defs>
+</svg>
+
+<header class="menubar">
+  <div class="l"><a href="#top" style="text-decoration:none;color:inherit"><b>fabi</b></a><a class="mb" href="#experience">Experience</a><a class="mb opt" href="#research">Research</a><a class="mb" href="#projects">Projects</a><a class="mb opt" href="#dooked-sec">Dooked</a><a class="mb opt" href="#design-sec">Design</a><a class="mb opt" href="#photos-sec">Photos</a><button type="button" data-open="resume">Resume</button></div>
+  <div class="r"><span class="loc">Durham, NC</span><span id="clock"></span></div>
+</header>
+
+<main class="desk" id="top">
+  <div class="labels"><span>swe · ai/ml · health tech</span><span>duke cs '29</span><span>photography</span></div>
+
+  <div class="hero" aria-label="fabi's portfolio">
+    <p class="script">fabi's</p>
+    <div class="bigwrap">
+      <button class="bigfolder" type="button" data-open="portfolio" aria-label="Open portfolio folder">
+        <svg class="back" viewBox="0 0 100 78" aria-hidden="true"><path d="M4 8 Q4 3 9 3 H36 Q40 3 42 6 L45 10 H91 Q96 10 96 15 V70 Q96 75 91 75 H9 Q4 75 4 70 Z" fill="url(#fgb)"/></svg>
+      </button>
+      <h1 class="big">portfolio</h1>
+      <div class="bigfolder" aria-hidden="true" style="pointer-events:none;z-index:3">
+        <svg viewBox="0 0 100 78"><rect x="4" y="22" width="92" height="53" rx="5" fill="url(#fg)" opacity=".88"/><rect x="4" y="22" width="92" height="2.5" rx="1.2" fill="#fff" opacity=".4"/></svg>
+      </div>
+      <div class="year">(2026)</div>
+    </div>
+  </div>
+  <svg class="cursor" viewBox="0 0 40 48" aria-hidden="true"><path d="M4 3 L4 38 L13 30 L20 45 L27 42 L20 27 L33 27 Z" fill="#fff" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/></svg>
+  <span class="hint">click around!</span>
+  <a class="cue" href="#quick"><span>Scroll for the quick version</span><i aria-hidden="true">↓</i></a>
+
+  <!-- Left side -->
+  <button class="item" type="button" style="--x:9%;--y:19%" data-open="experience"><span class="ic"><svg width="96" height="75" aria-hidden="true"><use href="#folder"/></svg></span><span class="nm">experience</span></button>
+  <button class="item" type="button" style="--x:23%;--y:13%" data-open="terminal"><span class="ic"><span class="app" style="background:linear-gradient(#3A3432,#1E1A19)"><svg width="34" height="26" viewBox="0 0 34 26" aria-hidden="true"><path d="M4 5 L12 13 L4 21" stroke="#9FD3A8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 21 H29" stroke="#E9E2DA" stroke-width="3" stroke-linecap="round"/></svg></span></span><span class="nm">terminal</span></button>
+  <button class="item" type="button" style="--x:7%;--y:43%" data-open="about"><span class="ic"><svg width="56" height="72" aria-hidden="true"><use href="#doc"/></svg></span><span class="nm">about_me.txt</span></button>
+  <button class="item" type="button" style="--x:16%;--y:62%" data-open="resume"><span class="ic"><svg width="56" height="72" aria-hidden="true"><use href="#pdf"/></svg></span><span class="nm">resume.pdf</span></button>
+  <button class="item" type="button" style="--x:8%;--y:82%" data-open="kombucha"><span class="ic"><span class="thumb"><img src="images/desktop/kombucha_batch.jpg" alt="" width="156" height="184"></span></span><span class="nm">kombucha_batch.jpeg</span></button>
+  <button class="item" type="button" style="--x:27%;--y:84%" data-open="projects"><span class="ic"><svg width="96" height="75" aria-hidden="true"><use href="#folder"/></svg></span><span class="nm">projects</span></button>
+
+  <!-- Top center -->
+  <button class="item" type="button" style="--x:41%;--y:12%" data-open="links"><span class="ic"><span class="app" style="background:#24292F"><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><g stroke="#fff" stroke-width="2.6" fill="none"><circle cx="9" cy="7" r="3.2"/><circle cx="9" cy="25" r="3.2"/><circle cx="23" cy="11" r="3.2"/><path d="M9 10.5 V21.5"/><path d="M23 14.5 Q23 19 12 22"/></g></svg></span></span><span class="nm">github</span></button>
+  <button class="item" type="button" style="--x:54%;--y:12%" data-open="links"><span class="ic"><span class="app" style="background:#2F6BD8"><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="7" width="24" height="18" rx="3" fill="none" stroke="#fff" stroke-width="2.4"/><circle cx="12" cy="14" r="3" fill="#fff"/><path d="M7.5 22 Q12 16.5 16.5 22" fill="#fff"/><path d="M19 13 H25 M19 18 H24" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg></span></span><span class="nm">linkedin</span></button>
+
+  <!-- Right side -->
+  <button class="item" type="button" style="--x:69%;--y:14%" data-open="radar"><span class="ic"><span class="thumb"><img src="images/desktop/arecibo_observatory.jpg" alt="" width="156" height="184"></span></span><span class="nm">radar_echo.png</span></button>
+  <button class="item" type="button" style="--x:5%;--y:63%" data-open="design"><span class="ic"><svg width="96" height="75" aria-hidden="true"><use href="#folder"/></svg></span><span class="nm">graphic_design</span></button>
+  <button class="item" type="button" style="--x:86%;--y:19%" data-open="photos"><span class="ic"><svg width="96" height="75" aria-hidden="true"><use href="#folder"/></svg></span><span class="nm">photography</span></button>
+  <button class="item" type="button" style="--x:92%;--y:42%" data-open="contact"><span class="ic"><span class="app" style="background:linear-gradient(#FFFFFF,#EEF2F8)"><svg width="36" height="28" viewBox="0 0 36 28" aria-hidden="true"><rect x="2" y="3" width="32" height="22" rx="3" fill="#fff" stroke="#2F6BD8" stroke-width="2.4"/><path d="M3.5 5 L18 16 L32.5 5" fill="none" stroke="#2F6BD8" stroke-width="2.4" stroke-linejoin="round"/></svg></span></span><span class="nm">contact</span></button>
+  <button class="item" type="button" style="--x:85%;--y:63%" data-open="dooked"><span class="ic"><svg width="96" height="75" aria-hidden="true"><use href="#folder"/></svg></span><span class="nm">dooked</span></button>
+  <button class="item" type="button" style="--x:80%;--y:84%" data-open="dooked"><span class="ic"><span class="thumb tee"><img src="images/desktop/dooked_tee.jpg" alt="" width="156" height="184"></span></span><span class="nm">dooked_tee.png</span></button>
+  <button class="item" type="button" style="--x:93%;--y:84%" data-open="trash"><span class="ic"><svg width="54" height="66" viewBox="0 0 54 66" aria-hidden="true"><path d="M8 14 H46 L42 62 Q41.6 64 39.5 64 H14.5 Q12.4 64 12 62 Z" fill="rgba(255,255,255,.75)" stroke="#9A938B" stroke-width="2"/><path d="M4 12 Q4 9 7 9 H47 Q50 9 50 12 V14 H4 Z" fill="#fff" stroke="#9A938B" stroke-width="2"/><g stroke="#B8B0A6" stroke-width="1.5"><path d="M18 22 L20 56"/><path d="M27 22 V56"/><path d="M36 22 L34 56"/></g><rect x="14" y="16" width="8" height="12" rx="1" fill="#fff" stroke="#C9C1B7" transform="rotate(-14 18 22)"/></svg></span><span class="nm">trash</span></button>
+</main>
+
+<div class="pg" id="quick">
+  <section class="intro" id="about-sec" aria-labelledby="hiTitle">
+    <div>
+      <span class="hola">hola!</span>
+      <h2 class="hi" id="hiTitle">Hi, I'm Fabi.</h2>
+      <p class="lede">I'm a <b>Computer Science student at Duke</b>, originally from Puerto Rico. Before CS, I did neuroscience research on Parkinson's disease and neurocognitive aging, and saw how much better tech could make clinical data work. Now I'm studying computer science so I can <span class="mark">build tools that help researchers and patients</span>, and I'm looking for <span class="mark">SWE, ML/AI, and health tech internships for Summer 2027</span>. On the side, I'm a photographer and videographer, and I love graphic design.</p>
+      <div class="pills"><span class="pill">CS @ Duke '29</span><span class="pill b">Kinesis Scholar</span><span class="pill">Clinical research</span><span class="pill p">Founder, Dooked</span><span class="pill">Español / English</span></div>
+      <p class="skl">Python · C++ · REDCap · Excel · Final Cut Pro · Canva</p>
+      <div class="acts">
+        <button class="pbtn main js-copy" type="button">Copy my email</button>
+        <button class="pbtn" type="button" data-open="resume">View resume</button>
+        <span class="pbtn todo">GitHub (add link)</span>
+        <a class="pbtn" href="https://www.linkedin.com/in/fabiana-h-10b0a5321/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <figure class="polaroid"><img class="me" src="images/headshot.jpg" alt="Fabiana Henriquez at Duke" width="720" height="1080"><figcaption>that's me!</figcaption></figure>
+  </section>
+  <div class="now" aria-label="Currently"><b>Currently</b><span>Studying CS at Duke</span><span>Research at the Duke Aging Center</span><span>Kinesis Foundation Scholar</span><span>Running Dooked</span></div>
+
+  <section id="experience" aria-labelledby="expT">
+    <div class="shead"><div><h2 id="expT">Experience</h2><p>From a hospital research team to a kombucha brewery, every role taught me to handle real data carefully and use it to solve real problems.</p></div></div>
+    <div class="cards">
+      <article class="card">
+        <div class="ctop"><div class="ml a" aria-hidden="true">DU</div><div><h3>Clinical Research Assistant</h3><p>Aging Center, Duke University Hospital</p></div></div>
+        <span class="dt2">Jan to Oct 2025 · Aug 2026 to now</span>
+        <span class="res">Co-author, HIV neurocognition paper</span>
+        <ul><li>Run clinical research visits for Parkinson's disease and Hispanic neurocognitive studies.</li><li>Give sociodemographic and neuropsychological assessments to Hispanic older adults in North Carolina.</li><li>Manage 50+ participant records in REDCap for HIV neurocognition research.</li><li>Work with the Diversity in Aging Research (DAR) Team under Dr. María J. Marquine.</li></ul>
+        <div class="stk"><span>REDCap</span><span>Clinical research</span><span>Bilingual assessments</span></div>
+      </article>
+      <article class="card">
+        <div class="ctop"><div class="ml b" aria-hidden="true">TK</div><div><h3>Production Technician</h3><p>Té·K Kombucha (La Fermentería)</p></div></div>
+        <span class="dt2">May to Aug 2026</span>
+        <span class="res">Raspberry flavor now sold at Walmart PR</span>
+        <ul><li>Fixed an over-carbonation issue in 200-gallon weekly production by analyzing pH, °Brix, and carbonation data.</li><li>Helped launch a new raspberry flavor, now sold at Walmart and Freshmart in Puerto Rico.</li><li>Built an Excel tracking system to monitor fermentation across weekly batches.</li></ul>
+        <div class="stk"><span>Excel</span><span>Data analysis</span><span>Quality control</span></div>
+      </article>
+      <article class="card">
+        <div class="ctop"><div class="ml a" aria-hidden="true">AI</div><div><h3>Videographer & Editor</h3><p>Duke Responsible AI Symposium</p></div></div>
+        <span class="dt2">Feb 2025</span>
+        <span class="res">5 on-camera interviews</span>
+        <ul><li>Filmed the symposium with professional camera and audio gear.</li><li>Interviewed 2025 Duke Hackathon judges, organizers, and attendees for event content.</li></ul>
+        <div class="stk"><span>Final Cut Pro</span><span>Videography</span><span>Interviewing</span></div>
+      </article>
+      <article class="card">
+        <div class="ctop"><div class="ml b" aria-hidden="true">LS</div><div><h3>Executive Team Member, Media Designer & Mentor</h3><p>Latinas in STEAM, Puerto Rico</p></div></div>
+        <span class="dt2">Aug 2021 to May 2025</span>
+        <span class="res">Mentored 3 students into Ivy and T10 schools</span>
+        <ul><li>Part of a 12-member nonprofit leadership team empowering young Latinas in STEAM.</li><li>Organized workshops at CIMATEC and UPR Río Piedras, and designed monthly Instagram and Facebook posts.</li><li>Coached Latina high schoolers on essays, scholarships, and admissions strategy.</li></ul>
+        <div class="stk"><span>Leadership</span><span>Graphic design</span><span>Mentoring</span></div>
+      </article>
+      <article class="card">
+        <div class="ctop"><div class="ml c" aria-hidden="true">AO</div><div><h3>STAR Academy Research Intern</h3><p>Arecibo Observatory (NASA-funded)</p></div></div>
+        <span class="dt2">Aug to Dec 2021</span>
+        <span class="res">Honor roll</span>
+        <ul><li>Completed graded coursework in planetary radar science using Python.</li><li>Led a 5-month engineering project on a 5-student team, building a lamppost prototype that reduces sky glow.</li><li>Co-wrote the research paper and presented the design at the closing symposium.</li></ul>
+        <div class="stk"><span>Python</span><span>Engineering design</span><span>Research writing</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="research" aria-labelledby="rsT">
+    <div class="shead"><div><h2 id="rsT">Research &amp; writing</h2><p>Papers I've worked on, from HIV and neurocognition to light pollution.</p></div></div>
+    <ul class="pubs"><li><span class="py"><span class="todo">[journal, year]</span></span><div><b>Resilience and Neurocognition in Hispanics and Non-Hispanic White Persons Living with HIV</b><span>Co-author · Diversity in Aging Research Team, Duke Aging Center</span></div></li><li><span class="py">Fall 2021</span><div><b>Understanding Light Pollution in Puerto Rico: A Pathway to Guarantee Visual Access to Our Galaxy</b><span>Co-author with A. Camacho Troche, M. Cordero Rivera, N. Millán, and D. Santiago · STAR Academy at the Arecibo Observatory. Designed a lamppost with downward shields, a 3,000 K LED, and a motion sensor, tested against standard posts with a photometer.</span><a class="read" href="files/light_pollution_paper.pdf" target="_blank" rel="noopener">Read the paper</a></div></li></ul>
+  </section>
+
+  <section id="projects" aria-labelledby="prT">
+    <div class="shead"><div><h2 id="prT">Projects</h2><p>Things I've built, with the stack and a link to the code.</p></div><span class="aside">more coming soon!</span></div>
+    <div class="cards">
+      <article class="card"><div class="scr" style="background:linear-gradient(135deg,#DCE7F3,#EFEBE5)">screenshot or demo gif</div><h3 class="pt">Batch Tracker <span class="ex">example</span></h3><p class="d">A fermentation dashboard that logs pH and sugar readings and predicts when a batch is ready.</p><div class="stk"><span>Python</span><span>pandas</span><span>scikit-learn</span></div><div class="lk"><span>GitHub</span><span>Live demo</span></div></article>
+      <article class="card"><div class="scr" style="background:linear-gradient(135deg,#FCE6EC,#EFEBE5)">screenshot or demo gif</div><h3 class="pt">Cognitive Aging Explorer <span class="ex">example</span></h3><p class="d">Interactive charts over a public cognitive aging dataset, with a simple model that flags trends.</p><div class="stk"><span>React</span><span>TypeScript</span><span>Python</span></div><div class="lk"><span>GitHub</span><span>Live demo</span></div></article>
+      <article class="card"><div class="scr" style="background:linear-gradient(135deg,#FFF1C9,#EFEBE5)">screenshot or demo gif</div><h3 class="pt">Dooked Drop Planner <span class="ex">example</span></h3><p class="d">A small tool that pulls Etsy orders and shows which designs to restock or retire.</p><div class="stk"><span>Node.js</span><span>SQL</span><span>Etsy API</span></div><div class="lk"><span>GitHub</span><span>Live demo</span></div></article>
+    </div>
+    <p class="swapnote">swap these for your real projects</p>
+  </section>
+
+  <section id="dooked-sec" aria-labelledby="dkT">
+    <div class="dk2">
+      <div class="art"><span>my side business</span><b id="dkT">Dooked.</b></div>
+      <div class="tx">
+        <h3>"your next fav tailgate tee &amp; phone case"</h3>
+        <p>I started Dooked in January 2026, a Duke-themed merch brand for the niche campus culture official merch skips. I run all of it, from designing the tees, phone cases, and shot glasses to the online store.</p>
+        <div class="st3 two"><div><b>Jan '26</b><span>launched</span></div><div><b>12</b><span>tees, cases & more</span></div></div>
+        <div class="acts"><a class="pbtn main" href="https://dooked.printify.me/" target="_blank" rel="noopener" style="text-decoration:none">Shop Dooked</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="design-sec" aria-labelledby="gdT">
+    <div class="shead"><div><h2 id="gdT">Graphic design</h2><p>A social media campaign I designed for Té·K Kombucha's five flavors.</p></div></div>
+    <div class="dgrid"><figure class="dz"><img class="zoomable dimg" src="images/design/tek_pina_colada.jpg" alt="tek_pina_colada.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_pina_colada.jpg</b><span>Té·K Kombucha, Piña Colada</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_hierbabuena.jpg" alt="tek_hierbabuena.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_hierbabuena.jpg</b><span>Té·K Kombucha, Hierbabuena</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_raspberry.jpg" alt="tek_raspberry.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_raspberry.jpg</b><span>Té·K Kombucha, Raspberry</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_curcuma_jengibre.jpg" alt="tek_curcuma_jengibre.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_curcuma_jengibre.jpg</b><span>Té·K Kombucha, Cúrcuma &amp; Jengibre</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_flor_de_jamaica.jpg" alt="tek_flor_de_jamaica.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_flor_de_jamaica.jpg</b><span>Té·K Kombucha, Flor de Jamaica</span></figcaption></figure></div>
+  </section>
+
+  <section id="photos-sec" aria-labelledby="phT">
+    <div class="shead"><div><h2 id="phT">Through my lens</h2><p>I also shoot product and editorial photography in Puerto Rico. A few favorites.</p></div></div>
+    <div class="gal">
+      <figure><img class="zoomable shot-img" src="images/photos/aurora_top.jpg" alt="aurora_top.jpg" width="1000" height="667" loading="lazy"><figcaption>aurora_top.jpg</figcaption></figure>
+      <figure><img class="zoomable shot-img" src="images/photos/aurora_x_perlita.jpg" alt="aurora_x_perlita.jpg" width="667" height="1000" loading="lazy"><figcaption>aurora_x_perlita.jpg</figcaption></figure>
+      <figure><img class="zoomable shot-img" src="images/photos/beach_editorial_v1.jpg" alt="beach_editorial_v1.jpg" width="1000" height="667" loading="lazy"><figcaption>beach_editorial_v1.jpg</figcaption></figure>
+      <figure><img class="zoomable shot-img" src="images/photos/luna_de_miel_top.jpg" alt="luna_de_miel_top.jpg" width="667" height="1000" loading="lazy"><figcaption>luna_de_miel_top.jpg</figcaption></figure>
+      <figure><img class="zoomable shot-img" src="images/photos/arena_negra_top.jpg" alt="arena_negra_top.jpg" width="1000" height="667" loading="lazy"><figcaption>arena_negra_top.jpg</figcaption></figure>
+      <figure><img class="zoomable shot-img" src="images/photos/touch_some_grass.jpg" alt="touch_some_grass.exe" width="1000" height="667" loading="lazy"><figcaption>touch_some_grass.exe</figcaption></figure>
+      <figure><img class="zoomable shot-img" src="images/photos/beach_editorial_v2.jpg" alt="beach_editorial_v2.jpg" width="1000" height="667" loading="lazy"><figcaption>beach_editorial_v2.jpg</figcaption></figure>
+      <figure><img class="zoomable shot-img" src="images/photos/luna_de_miel_outtake.jpg" alt="luna_de_miel_outtake.jpg" width="667" height="1000" loading="lazy"><figcaption>luna_de_miel_outtake.jpg</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="talk" id="contact-sec">
+    <h2>Let's talk.</h2>
+    <p>I'm looking for software engineering, ML/AI, and health tech internships for Summer 2027. Always happy to talk about research, or small businesses too.</p>
+    <div class="acts" style="align-items:center"><span class="em">fh95@duke.edu</span><span class="em">fabiana.henriquez@duke.edu</span><button class="pbtn js-copy" type="button">Copy email</button><span class="pbtn todo">GitHub (add link)</span><a class="pbtn" href="https://www.linkedin.com/in/fabiana-h-10b0a5321/" target="_blank" rel="noopener">LinkedIn</a></div>
+  </div>
+
+  <footer><span>Designed by Fabi. Built with HTML, CSS, and JavaScript, with help from AI tools.</span><a href="#top">Back to the desktop ↑</a></footer>
+</div>
+
+
+<!-- Window contents -->
+<template id="tpl-about" data-title="about_me.txt" data-w="500">
+<div class="body"><pre class="txt">hi! i'm fabi (fabiana henríquez).
+
+- computer science @ duke, class of 2029
+- kinesis foundation scholar
+- from puerto rico, bilingual (español / english)
+- clinical research at the duke aging center
+  (diversity in aging research team)
+- founder of dooked, a duke merch brand
+- photographer and videographer on the side
+- i love graphic design
+
+before cs, i did neuroscience research on
+parkinson's disease and neurocognitive aging.
+now i'm studying cs so i can build tools
+that help researchers and patients.
+
+looking for swe, ml/ai, and health tech
+internships, summer 2027.
+
+tip: open the terminal and type <b>help</b></pre></div>
+</template>
+
+<template id="tpl-experience" data-title="experience" data-w="660">
+<div class="body">
+  <h2>Experience</h2>
+  <p class="sub">Every role taught me to handle real data carefully and use it to solve real problems.</p>
+  <div class="entry">
+    <div class="ehead"><h3>Clinical Research Assistant · Aging Center, Duke University Hospital</h3><span class="when">Jan to Oct 2025 · Aug 2026 to now</span></div>
+    <span class="metric">Co-author, HIV neurocognition paper</span>
+    <ul><li>Run clinical research visits for Parkinson's disease and Hispanic neurocognitive studies.</li><li>Give sociodemographic and neuropsychological assessments to Hispanic older adults in North Carolina.</li><li>Manage 50+ participant records in REDCap for HIV neurocognition research.</li><li>Work with the Diversity in Aging Research (DAR) Team under Dr. María J. Marquine.</li></ul>
+    <div class="tags"><span>REDCap</span><span>Clinical research</span><span>Bilingual assessments</span></div>
+  </div>
+  <div class="entry">
+    <div class="ehead"><h3>Production Technician · Té·K Kombucha (La Fermentería)</h3><span class="when">May to Aug 2026</span></div>
+    <span class="metric">Raspberry flavor now sold at Walmart PR</span>
+    <ul><li>Fixed an over-carbonation issue in 200-gallon weekly production by analyzing pH, °Brix, and carbonation data.</li><li>Helped launch a new raspberry flavor, now sold at Walmart and Freshmart in Puerto Rico.</li><li>Built an Excel tracking system to monitor fermentation across weekly batches.</li></ul>
+    <div class="tags"><span>Excel</span><span>Data analysis</span><span>Quality control</span></div>
+  </div>
+  <div class="entry">
+    <div class="ehead"><h3>Videographer & Editor · Duke Responsible AI Symposium</h3><span class="when">Feb 2025</span></div>
+    <span class="metric">5 on-camera interviews</span>
+    <ul><li>Filmed the symposium with professional camera and audio gear.</li><li>Interviewed 2025 Duke Hackathon judges, organizers, and attendees for event content.</li></ul>
+    <div class="tags"><span>Final Cut Pro</span><span>Videography</span><span>Interviewing</span></div>
+  </div>
+  <div class="entry">
+    <div class="ehead"><h3>Executive Team Member, Media Designer & Mentor · Latinas in STEAM, Puerto Rico</h3><span class="when">Aug 2021 to May 2025</span></div>
+    <span class="metric">Mentored 3 students into Ivy and T10 schools</span>
+    <ul><li>Part of a 12-member nonprofit leadership team empowering young Latinas in STEAM.</li><li>Organized workshops at CIMATEC and UPR Río Piedras, and designed monthly Instagram and Facebook posts.</li><li>Coached Latina high schoolers on essays, scholarships, and admissions strategy.</li></ul>
+    <div class="tags"><span>Leadership</span><span>Graphic design</span><span>Mentoring</span></div>
+  </div>
+  <div class="entry">
+    <div class="ehead"><h3>STAR Academy Research Intern · Arecibo Observatory (NASA-funded)</h3><span class="when">Aug to Dec 2021</span></div>
+    <span class="metric">Honor roll</span>
+    <ul><li>Completed graded coursework in planetary radar science using Python.</li><li>Led a 5-month engineering project on a 5-student team, building a lamppost prototype that reduces sky glow.</li><li>Co-wrote the research paper and presented the design at the closing symposium.</li></ul>
+    <div class="tags"><span>Python</span><span>Engineering design</span><span>Research writing</span></div>
+  </div>
+  <div class="entry"><h3>Research</h3><ul style="margin-top:8px"><li><b>Resilience and Neurocognition in Hispanics and Non-Hispanic White Persons Living with HIV</b> · <span class="todo">[journal, year]</span></li><li><b>Understanding Light Pollution in Puerto Rico: A Pathway to Guarantee Visual Access to Our Galaxy</b> · Fall 2021 · <a href="files/light_pollution_paper.pdf" target="_blank" rel="noopener">read the paper</a></li></ul></div>
+</div>
+</template>
+
+<template id="tpl-projects" data-title="projects" data-w="700">
+<div class="body">
+  <h2>Projects</h2>
+  <p class="sub"><span class="todo">These three are examples. Swap them for your real projects.</span></p>
+  <div class="pgrid">
+    <article class="pcard"><div class="shot" style="background:linear-gradient(135deg,#E1ECF7,#F2EEE8)">screenshot</div><h3>Batch Tracker<span class="badge">example</span></h3><p class="sub" style="margin:0">Logs pH and sugar readings and predicts when a batch is ready.</p><div class="tags"><span>Python</span><span>pandas</span><span>scikit-learn</span></div></article>
+    <article class="pcard"><div class="shot" style="background:linear-gradient(135deg,#FCE6EC,#F2EEE8)">screenshot</div><h3>Cognitive Aging Explorer<span class="badge">example</span></h3><p class="sub" style="margin:0">Interactive charts over a public cognitive aging dataset.</p><div class="tags"><span>React</span><span>TypeScript</span></div></article>
+    <article class="pcard"><div class="shot" style="background:linear-gradient(135deg,#FFF1C9,#F2EEE8)">screenshot</div><h3>Dooked Drop Planner<span class="badge">example</span></h3><p class="sub" style="margin:0">Shows which designs to restock or retire from order data.</p><div class="tags"><span>Node.js</span><span>SQL</span></div></article>
+  </div>
+</div>
+</template>
+
+<template id="tpl-resume" data-title="Fabiana_Henriquez_Resume.pdf" data-w="700">
+<div class="body" style="background:var(--chrome)">
+  <div class="toolbar"><span class="sub">Preview · 1 page</span><a class="btn" href="files/resume.pdf" target="_blank" rel="noopener" style="text-decoration:none">Open PDF</a></div>
+  <img class="zoomable" src="images/desktop/resume_preview.jpg" alt="Fabiana Henríquez Portela resume" width="1275" height="1650" style="display:block;width:100%;height:auto;background:#fff;box-shadow:0 0 0 1px var(--line),0 6px 16px -8px rgba(0,0,0,.2);cursor:zoom-in">
+</div>
+</template>
+
+<template id="tpl-dooked" data-title="dooked" data-w="640">
+<div class="body">
+  <div class="dk">
+    <div class="art"><span>my side business</span><b>Dooked.</b></div>
+    <div class="tx">
+      <h3 style="font-size:20px;margin-bottom:8px">Duke culture, printed on demand.</h3>
+      <p class="sub">I started Dooked in January 2026, a Duke-themed merch brand for the niche campus culture official merch skips. I run all of it, from the designs to the online store.</p>
+      <div class="stats two"><div><b>Jan '26</b><span>launched</span></div><div><b>12</b><span>tees, cases & more</span></div></div>
+      <div class="row"><a class="btn" href="https://dooked.printify.me/" target="_blank" rel="noopener" style="text-decoration:none">Shop Dooked</a></div>
+    </div>
+  </div>
+</div>
+</template>
+
+<template id="tpl-design" data-title="graphic_design" data-w="640">
+<div class="body">
+  <h2>Graphic design</h2>
+  <p class="sub">Social graphics and brand visuals.</p>
+  <div class="dgrid"><figure class="dz"><img class="zoomable dimg" src="images/design/tek_pina_colada.jpg" alt="tek_pina_colada.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_pina_colada.jpg</b><span>Té·K Kombucha, Piña Colada</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_hierbabuena.jpg" alt="tek_hierbabuena.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_hierbabuena.jpg</b><span>Té·K Kombucha, Hierbabuena</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_raspberry.jpg" alt="tek_raspberry.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_raspberry.jpg</b><span>Té·K Kombucha, Raspberry</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_curcuma_jengibre.jpg" alt="tek_curcuma_jengibre.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_curcuma_jengibre.jpg</b><span>Té·K Kombucha, Cúrcuma &amp; Jengibre</span></figcaption></figure><figure class="dz"><img class="zoomable dimg" src="images/design/tek_flor_de_jamaica.jpg" alt="tek_flor_de_jamaica.jpg" width="720" height="900" loading="lazy"><figcaption><b>tek_flor_de_jamaica.jpg</b><span>Té·K Kombucha, Flor de Jamaica</span></figcaption></figure></div>
+</div>
+</template>
+
+<template id="tpl-photos" data-title="photography" data-w="600">
+<div class="body">
+  <h2>Through my lens</h2>
+  <p class="sub">Product and editorial photography, shot in Puerto Rico.</p>
+  <div class="photos">
+    <figure><img class="zoomable shot-img" src="images/photos/aurora_top.jpg" alt="aurora_top.jpg" width="1000" height="667" loading="lazy"><figcaption>aurora_top.jpg</figcaption></figure>
+    <figure><img class="zoomable shot-img" src="images/photos/aurora_x_perlita.jpg" alt="aurora_x_perlita.jpg" width="667" height="1000" loading="lazy"><figcaption>aurora_x_perlita.jpg</figcaption></figure>
+    <figure><img class="zoomable shot-img" src="images/photos/beach_editorial_v1.jpg" alt="beach_editorial_v1.jpg" width="1000" height="667" loading="lazy"><figcaption>beach_editorial_v1.jpg</figcaption></figure>
+    <figure><img class="zoomable shot-img" src="images/photos/luna_de_miel_top.jpg" alt="luna_de_miel_top.jpg" width="667" height="1000" loading="lazy"><figcaption>luna_de_miel_top.jpg</figcaption></figure>
+    <figure><img class="zoomable shot-img" src="images/photos/arena_negra_top.jpg" alt="arena_negra_top.jpg" width="1000" height="667" loading="lazy"><figcaption>arena_negra_top.jpg</figcaption></figure>
+    <figure><img class="zoomable shot-img" src="images/photos/touch_some_grass.jpg" alt="touch_some_grass.exe" width="1000" height="667" loading="lazy"><figcaption>touch_some_grass.exe</figcaption></figure>
+    <figure><img class="zoomable shot-img" src="images/photos/beach_editorial_v2.jpg" alt="beach_editorial_v2.jpg" width="1000" height="667" loading="lazy"><figcaption>beach_editorial_v2.jpg</figcaption></figure>
+    <figure><img class="zoomable shot-img" src="images/photos/luna_de_miel_outtake.jpg" alt="luna_de_miel_outtake.jpg" width="667" height="1000" loading="lazy"><figcaption>luna_de_miel_outtake.jpg</figcaption></figure>
+  </div>
+</div>
+</template>
+
+<template id="tpl-contact" data-title="new message" data-w="480">
+<div class="body">
+  <h2>Let's talk.</h2>
+  <p class="sub">Looking for SWE, ML/AI, and health tech internships for Summer 2027. Also happy to chat about research or small businesses.</p>
+  <div class="row" style="margin-bottom:10px"><span class="email">fh95@duke.edu</span><span class="email">fabiana.henriquez@duke.edu</span><button class="btn js-copy" type="button">Copy email</button></div>
+  <div class="row"><span class="btn ghost">GitHub (add link)</span><a class="btn" href="https://www.linkedin.com/in/fabiana-h-10b0a5321/" target="_blank" rel="noopener" style="text-decoration:none">LinkedIn</a></div>
+</div>
+</template>
+
+<template id="tpl-links" data-title="links" data-w="420">
+<div class="body">
+  <h3 style="margin-bottom:8px">Links</h3>
+  <p class="sub">Find me on LinkedIn. GitHub is coming soon.</p>
+  <div class="row"><span class="btn ghost">github.com/<span class="todo">you</span></span><a class="btn" href="https://www.linkedin.com/in/fabiana-h-10b0a5321/" target="_blank" rel="noopener" style="text-decoration:none">linkedin.com/in/fabiana-h-10b0a5321</a></div>
+</div>
+</template>
+
+<template id="tpl-radar" data-title="radar_echo.png" data-w="560">
+<div class="body">
+  <img class="zoomable" src="images/desktop/arecibo_observatory.jpg" alt="radar_echo.png" style="width:100%;height:auto;border-radius:8px;display:block;cursor:zoom-in">
+  <p class="sub" style="margin:8px 0 16px">The Arecibo Observatory at night. Photo: F. Arroyo, 2016.</p>
+  <h3>NASA STAR Academy · Arecibo Observatory</h3>
+  <p style="margin-top:6px">In high school I interned with the planetary radar team, where I learned Python by processing and analyzing radar echo data. I also worked on a lamppost designed to reduce skyglow, and co-wrote a paper about it.</p>
+  <a class="btn" href="files/light_pollution_paper.pdf" target="_blank" rel="noopener" style="text-decoration:none">Read the paper</a>
+</div>
+</template>
+
+<template id="tpl-kombucha" data-title="kombucha_batch.jpeg" data-w="520">
+<div class="body">
+  <img class="zoomable" src="images/desktop/kombucha_batch.jpg" alt="kombucha_batch.jpeg" style="width:100%;height:auto;border-radius:8px;display:block;cursor:zoom-in">
+  <h3 style="margin-top:16px">Té K Kombucha (La Fermentería)</h3>
+  <p style="margin-top:6px">I supported 200-gallon weekly production, tracked pH, sugar, and carbonation, and built an Excel system for the data. My favorite win: tracking down why batches were coming out over-carbonated, and fixing it.</p>
+  <span class="metric">Helped develop the raspberry flavor</span>
+</div>
+</template>
+
+<template id="tpl-trash" data-title="trash · 2 items" data-w="520">
+<div class="body">
+  <table class="list">
+    <thead><tr><th>Name</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td><b>pre-med_plan.docx</b></td><td class="k">Switched to CS. No regrets.</td></tr>
+      <tr><td><b>over-carbonated_batch.csv</b></td><td class="k">Bug found and fixed.</td></tr>
+    </tbody>
+  </table>
+  <div class="row" style="margin-top:16px"><button class="btn js-empty" type="button">Empty Trash</button></div>
+  <p class="trash-note" hidden>can't, it's character development</p>
+</div>
+</template>
+
+<template id="tpl-terminal" data-title="fabi@duke: ~" data-w="560">
+<div class="term">
+  <pre class="o">Last login: today on ttys001
+Type <span class="hl">help</span> to see what you can do.
+</pre>
+  <form><span class="p">fabi@duke ~ %</span><input aria-label="Terminal input" autocomplete="off" spellcheck="false"></form>
+</div>
+</template>
+
+<template id="tpl-portfolio" data-title="portfolio" data-w="560">
+<div class="body" style="padding:10px 12px">
+  <table class="list">
+    <thead><tr><th>Name</th><th>Kind</th></tr></thead>
+    <tbody id="index"></tbody>
+  </table>
+</div>
+</template>
+<script src="js/main.js"></script>
+</body>
+</html>
